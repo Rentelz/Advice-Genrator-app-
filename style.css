@@ -1,0 +1,142 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: hsl(218, 23%, 16%);
+    font-family: 'Manrope', sans-serif;
+}
+
+
+.container{
+    height: 180px;
+    width:  400px;
+    background-color: hsl(217, 19%, 24%);
+    margin-left: 250px;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+
+
+.container h1{
+    color: hsl(150, 100%, 66%);
+    text-align: center;
+    font-size: 20px;
+}
+
+.genratorBtn{
+    border:  none;
+    text-align: center;
+}
+
+
+.dividerImg{
+    height: 12px;
+    text-align: center;
+}
+
+
+#loadingIcon {
+    display: none;
+  }
+
+  
+  .advice-container {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .advice-container.show {
+    opacity: 1;
+  }
+  
+
+
+  h2{
+    text-align: center;
+  padding: 20px;
+  color: hsl(193, 38%, 86%);
+font-size: 15px;
+  }
+
+
+/* .genratorBtn{
+
+
+
+  display: inline-block;
+  border: none;
+  border-radius: 50%;
+  background-color: hsl(150, 100%, 66%);
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 170px;
+margin-top: 10px;
+
+} */
+
+/* Hover effect */
+/* .round-button:hover {
+  background-color: hsl(150, 100%, 66%);
+  box-shadow: 0 0 3px 3px hsl(150, 100%, 66%);
+} */
+
+/* Glow effect on hover */
+/* Glow effect on hover */
+/* .genratorBtn::before {
+  content: '';
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  width: calc(100% + 6px);
+  height: calc(100% + 6px);
+  border-radius: 50%;
+  background-color: hsl(150, 100%, 66%);
+  opacity: 0;
+  transition: opacity 0.3s;
+} */
+
+/* .genratorBtn:hover::before {
+  opacity: 0.5;
+} */
+
+
+
+.genratorBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 50%;
+  background-color: hsl(150, 100%, 66%);
+  color: #fff;
+  font-size: 16px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 175px;
+  margin-top: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.genratorBtn:hover {
+  background-color: hsl(150, 100%, 56%);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.dividerImg {
+  width: 24px;
+  height: 24px;
+}
+
+
+
+.attribution{
+  margin-left: 250px;
+}
